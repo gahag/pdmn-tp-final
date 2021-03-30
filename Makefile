@@ -26,30 +26,35 @@ concat_parts:
 	cd $(path) && cat part* > all.csv && cd ..
 
 q1:
-	make file=1.py run_local
+	make file=src/1.py run_local
 	make path=output/local_tp_final_1_histogram.csv concat_parts
-	python 1-plot.py
+	python src/1-plot.py
 
 q2:
-	make file=2.py run_local
+	make file=src/2.py run_local
 	make path=output/local_tp_final_2_top_100_tracks_with_name_df.csv concat_parts
 
 q4:
-	make file=4.py run_local
+	make file=src/4.py run_local
 	make path=output/local_tp_final_4_top_100_heavy_users_df.csv concat_parts
 
 q5:
 	rm -rf output/local_tp_final_5_user_play_counts_rdd.csv
-	make file=5.py run_local
+	make file=src/5.py run_local
 	make path=output/local_tp_final_5_user_play_counts_rdd.csv concat_parts
 
 q6:
 	rm -rf output/local_tp_final_6_plays_by_country_rdd.csv
-	make file=6.py run_local
+	make file=src/6.py run_local
 	make path=output/local_tp_final_6_plays_by_country_rdd.csv concat_parts
 
+q7:
+	rm -rf output/local_tp_final_7.csv
+	make file=src/7.py run_local
+	make path=output/local_tp_final_7.csv concat_parts
+
 collab_filtering:
-	make file=collab_filtering.py run_local
+	make file=src/collab_filtering.py run_local
 	make path=output/local_tp_final_collab_filtering_user_recommendations_with_info_df.csv concat_parts
 
 countries_codes_and_coordinates:
