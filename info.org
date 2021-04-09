@@ -1,0 +1,77 @@
+* 3
+  |     | count | artist_name      |
+  |-----+-------+------------------|
+  |   0 | 22928 | Radiohead        |
+  |   1 | 20292 | The Beatles      |
+  |   2 | 16700 | Nine Inch Nails  |
+  |   3 | 12851 | Muse             |
+  |   4 | 12489 | Coldplay         |
+  | ... |   ... | ...              |
+  |  95 |  4207 | Nightwish        |
+  |  96 |  4205 | Morrissey        |
+  |  97 |  4190 | Weezer           |
+  |  98 |  4187 | Ramones          |
+  |  99 |  4165 | A Perfect Circle |
+* 7
+  |  ix | window                                     | track                                | count | track_name                                        | artist_name                  |
+  |-----+--------------------------------------------+--------------------------------------+-------+---------------------------------------------------+------------------------------|
+  |  17 | (2005-04-21 00:00:00, 2005-04-28 00:00:00) | cc1df47a-b272-4cb5-8f2d-80d1313cb993 |    26 | Famous Blue Raincoat                              | Leonard Cohen                |
+  |  20 | (2005-05-12 00:00:00, 2005-05-19 00:00:00) | 15865a8a-64e6-4820-b3ce-53394c0ba374 |    23 | Better Alone                                      | Melanie C                    |
+  |  26 | (2005-06-09 00:00:00, 2005-06-16 00:00:00) | ec7233ca-411d-4bd5-9e8e-6e4ba15268a2 |    20 | Beverly Hills                                     | Weezer                       |
+  |  28 | (2005-06-23 00:00:00, 2005-06-30 00:00:00) | 2d7d6714-8b41-4894-af3a-1cf0a092a7ee |    20 | Seventeen Years                                   | Ratatat                      |
+  |  31 | (2005-07-14 00:00:00, 2005-07-21 00:00:00) | ea0ad976-5750-4885-9f33-2c656dfc4a42 |    36 | Bound For The Floor                               | Local H                      |
+  |  36 | (2005-08-04 00:00:00, 2005-08-11 00:00:00) | 235efc48-16f8-4b48-8688-bf88010c1a32 |    28 | Let Me Go                                         | Cake                         |
+  |  40 | (2005-08-25 00:00:00, 2005-09-01 00:00:00) | 64581a21-566d-4b24-99ae-c5f48b75e660 |   188 | Staring At The Sun                                | Tv On The Radio              |
+  |  43 | (2005-09-15 00:00:00, 2005-09-22 00:00:00) | 91951530-d978-4648-95b1-08b1f49ffba5 |    88 | Anthems For A Seventeen Year Old Girl             | Broken Social Scene          |
+  |  50 | (2005-10-27 00:00:00, 2005-11-03 00:00:00) | 1b85ed5b-8ab1-4ca2-9554-44a555615121 |    32 | Lapland                                           | Ratatat                      |
+  |  55 | (2005-12-01 00:00:00, 2005-12-08 00:00:00) | 45c773c3-c8f0-41a1-b5a5-c241a3baebfa |    34 | St. Ides Heaven                                   | Elliott Smith                |
+  |  56 | (2005-12-08 00:00:00, 2005-12-15 00:00:00) | 413ab1c7-947d-40d9-a832-b1d844a8cb24 |    55 | Stars                                             | The Cranberries              |
+  |  60 | (2005-12-29 00:00:00, 2006-01-05 00:00:00) | 4e948c39-18f1-452f-9219-ca3b5537befe |    53 | Sinner                                            | Deathgaze                    |
+  |  61 | (2006-01-05 00:00:00, 2006-01-12 00:00:00) | 60f0bfa4-8da9-4840-b5fe-23c1fc470f34 |   104 | Jolene                                            | Cake                         |
+  |  70 | (2006-03-09 00:00:00, 2006-03-16 00:00:00) | 7ee10fcf-4481-4080-86cd-6056c1341657 |    31 | Blue Light                                        | Bloc Party                   |
+  |  75 | (2006-04-06 00:00:00, 2006-04-13 00:00:00) | 2948778c-8165-424f-8deb-dbbf89dab6ab |    39 | Shoukyo To Sakujyo                                | 雅-Miyavi-                   |
+  |  76 | (2006-04-13 00:00:00, 2006-04-20 00:00:00) | b336ecdb-3c6c-451b-8471-700f9bb15d88 |    60 | The Promised Land                                 | 植松伸夫                     |
+  |  80 | (2006-05-11 00:00:00, 2006-05-18 00:00:00) | 35b6bd7b-d86d-492e-8112-d6517ff23f50 |    51 | Glass Ceiling                                     | Metric                       |
+  |  82 | (2006-05-18 00:00:00, 2006-05-25 00:00:00) | eaf9ca13-1737-42f4-943b-5e2e9c173158 |    77 | Mushi                                             | Dir En Grey                  |
+  |  84 | (2006-06-01 00:00:00, 2006-06-08 00:00:00) | b71b4cff-1987-477d-807a-3583956a99d3 |    58 | 100% Jesus                                        | Daniella'S Daze              |
+  |  87 | (2006-06-22 00:00:00, 2006-06-29 00:00:00) | 51df2658-7111-423b-b12b-0efc9060ef64 |    30 | Siren                                             | Tori Amos                    |
+  |  88 | (2006-06-29 00:00:00, 2006-07-06 00:00:00) | b3e6f4c5-e62f-4b55-afe2-ec583d48b8dd |    54 | Milk                                              | Kings Of Leon                |
+  |  92 | (2006-07-20 00:00:00, 2006-07-27 00:00:00) | 2753d065-3ea0-45c7-a5dc-2bf0fdfd5a56 |    45 | My Immortal                                       | Evanescence                  |
+  | 103 | (2006-09-21 00:00:00, 2006-09-28 00:00:00) | e8f0dbf7-cc39-453e-8dcd-2ec07c3884ae |    24 | When The Night Feels My Song                      | Bedouin Soundclash           |
+  | 104 | (2006-09-28 00:00:00, 2006-10-05 00:00:00) | be24bdfe-11d1-4e6d-84e9-b29888f7e520 |    45 | Obstacle 2                                        | Interpol                     |
+  | 107 | (2006-10-19 00:00:00, 2006-10-26 00:00:00) | 933254bb-1ba9-4808-9995-df75c6c4f823 |    55 | White Daisy Passing                               | Rocky Votolato               |
+  | 110 | (2006-11-09 00:00:00, 2006-11-16 00:00:00) | 60bd9d53-01ff-4562-8058-eb44b3940317 |    90 | Everything In Its Right Place                     | Radiohead                    |
+  | 116 | (2006-12-21 00:00:00, 2006-12-28 00:00:00) | 3a3628a0-62cd-4a5f-8c42-2f7540380035 |    33 | Je T'Aime...Moi Non Plus                          | Serge Gainsbourg             |
+  | 118 | (2007-01-04 00:00:00, 2007-01-11 00:00:00) | abd29cd1-acc5-47ed-8dfb-0a04a305d559 |    80 | Special Thing                                     | Tenacious D                  |
+  | 123 | (2007-02-08 00:00:00, 2007-02-15 00:00:00) | 3b052af2-7de7-4df0-af7f-93abceba2017 |    92 | Distortion Sleep                                  | Soilwork                     |
+  | 132 | (2007-04-05 00:00:00, 2007-04-12 00:00:00) | 55956d3e-c5d4-4332-a377-bf77c463656e |    37 | Beast Of Burden                                   | The Rolling Stones           |
+  | 133 | (2007-04-12 00:00:00, 2007-04-19 00:00:00) | 6d12d96d-8ded-4337-bab2-eeba0722e1d6 |    78 | Beautiful Day                                     | Mellowdrone                  |
+  | 135 | (2007-04-26 00:00:00, 2007-05-03 00:00:00) | 84d5c8dc-7c4e-40aa-b1b7-370d411cdb06 |    43 | Script Language                                   | Humanwine                    |
+  | 136 | (2007-05-03 00:00:00, 2007-05-10 00:00:00) | db4c9220-df76-4b42-b6f5-8bf52cc80f77 |    87 | Heartbeats                                        | The Knife                    |
+  | 140 | (2007-05-31 00:00:00, 2007-06-07 00:00:00) | 1e15c8a2-1177-47e7-8290-730f232e0089 |    39 | My Hope, The Destroyer                            | My Dying Bride               |
+  | 141 | (2007-06-07 00:00:00, 2007-06-14 00:00:00) | 3a3628a0-62cd-4a5f-8c42-2f7540380035 |    59 | Je T'Aime...Moi Non Plus                          | Serge Gainsbourg             |
+  | 146 | (2007-07-05 00:00:00, 2007-07-12 00:00:00) | 6d0cdee2-77d5-4798-a1a0-cda0389c3ce0 |    43 | Als M'N Hoofd M'N Hart Vertrouwt                  | Marco Borsato                |
+  | 151 | (2007-08-09 00:00:00, 2007-08-16 00:00:00) | 22e507a2-2201-4427-b792-59b5ae1d65d2 |    67 | Summer Wine                                       | Ville Valo & Nathalia Avelon |
+  | 153 | (2007-08-23 00:00:00, 2007-08-30 00:00:00) | 5df4d3e4-ef04-4126-9e05-e3309f08131f |    36 | Augustine                                         | Patrick Wolf                 |
+  | 154 | (2007-08-30 00:00:00, 2007-09-06 00:00:00) | bd782340-6fa5-4b52-aa5a-ceafb9bc0340 |    66 | Gimme More                                        | Britney Spears               |
+  | 160 | (2007-10-11 00:00:00, 2007-10-18 00:00:00) | 31600df4-e6dd-48ca-9f6b-8804027d8d6e |    50 | Jigsaw Falling Into Place                         | Radiohead                    |
+  | 166 | (2007-11-22 00:00:00, 2007-11-29 00:00:00) | e029368a-2776-4649-8110-7a5dc59232d6 |    45 | Love, Sweat And Beer                              | Hadouken!                    |
+  | 173 | (2008-01-10 00:00:00, 2008-01-17 00:00:00) | 74abc4b2-7c3c-4d77-87cd-5cbcbadbe5be |    40 | No One                                            | Alicia Keys                  |
+  | 175 | (2008-01-24 00:00:00, 2008-01-31 00:00:00) | 02e64475-a5c0-4e42-9153-13949a252273 |    43 | Born Slippy                                       | Barefoot                     |
+  | 183 | (2008-03-13 00:00:00, 2008-03-20 00:00:00) | 4dd43868-8947-4228-9dd9-fa99bbbd49e9 |    39 | Foundations                                       | Kate Nash                    |
+  | 187 | (2008-04-10 00:00:00, 2008-04-17 00:00:00) | 4ac8f465-a2f2-4e95-be3f-b92cf51df658 |    44 | If I Don'T Live Today, Then I Might Be Here To... | Mando Diao                   |
+  | 189 | (2008-04-24 00:00:00, 2008-05-01 00:00:00) | 90139431-6395-4813-8f07-7f5cb1fd0c6e |    42 | What She Did                                      | Hadouken!                    |
+  | 191 | (2008-05-08 00:00:00, 2008-05-15 00:00:00) | 81eb9d74-de3e-4ac0-89c5-67ed360582bf |    75 | If I Never See Your Face Again (Feat. Rihanna)    | Maroon 5                     |
+  | 193 | (2008-05-22 00:00:00, 2008-05-29 00:00:00) | c7422f73-8e94-4dde-baf0-5af86be7de70 |    45 | Aqueous Transmission                              | Incubus                      |
+  | 195 | (2008-06-05 00:00:00, 2008-06-12 00:00:00) | a51b8838-0e35-4c65-b9e6-cf31fbc54ada |    48 | Crossroads                                        | Byron                        |
+  | 198 | (2008-06-26 00:00:00, 2008-07-03 00:00:00) | ddb286a9-6c57-484b-82cb-1330ae3090dc |    48 | You                                               | Bad Religion                 |
+  | 200 | (2008-07-10 00:00:00, 2008-07-17 00:00:00) | 9eaa0926-93e4-4a82-a19e-ed8cb3f1ddbe |    49 | Non-Stop Party Now                                | Girl Talk                    |
+  | 205 | (2008-08-14 00:00:00, 2008-08-21 00:00:00) | e01a3d76-3814-432f-b17e-402c1a2ee307 |    53 | Suru (Original Mix)                               | Super8 & Tab                 |
+  | 207 | (2008-08-28 00:00:00, 2008-09-04 00:00:00) | 9882d058-f85a-465e-adf2-4957bf772ba8 |    37 | Fly On The Wall                                   | Miley Cyrus                  |
+  | 211 | (2008-09-25 00:00:00, 2008-10-02 00:00:00) | 5a536521-64ae-4a57-8afa-2a4235bc8841 |   115 | Womanizer                                         | Britney Spears               |
+  | 213 | (2008-10-09 00:00:00, 2008-10-16 00:00:00) | 5a536521-64ae-4a57-8afa-2a4235bc8841 |    76 | Womanizer                                         | Britney Spears               |
+  | 217 | (2008-11-06 00:00:00, 2008-11-13 00:00:00) | 8c28a9b1-e36e-4950-9cab-13fb7ff3c300 |    76 | Kill The Lights                                   | Britney Spears               |
+  | 220 | (2008-11-27 00:00:00, 2008-12-04 00:00:00) | 3dc07f41-89fb-41d6-8257-d156920eedc6 |    52 | Invaders Must Die                                 | The Prodigy                  |
+  | 233 | (2009-02-26 00:00:00, 2009-03-05 00:00:00) | b024959d-de7c-44de-a0f2-e6592e2c1fa4 |   101 | Fight With Shattered Mirrors                      | Zeigeist                     |
+  | 236 | (2009-03-19 00:00:00, 2009-03-26 00:00:00) | 87129015-6dc5-4cfc-b71f-5e908fb01f6e |    62 | Pinocchio Story (Freestyle Live From Singapore)   | Kanye West                   |
+  | 239 | (2009-04-09 00:00:00, 2009-04-16 00:00:00) | c71786ed-6b2e-42a1-9be4-bbb039176b1f |    63 | Omen                                              | The Prodigy                  |
